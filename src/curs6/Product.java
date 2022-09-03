@@ -46,7 +46,7 @@ public class Product {
         System.out.println("Product 1: "+p1.getName()+" pret "+p1.getPrice());
         System.out.println("Product 2: "+p2.getName()+" pret "+p2.getPrice());
         System.out.println("Product 3: "+p3.getName()+" pret "+p3.getPrice());
-        System.out.println("Product 3: "+p4.getName()+" pret "+p4.getPrice());
+        System.out.println("Product 4: "+p4.getName()+" pret "+p4.getPrice());
 
         if (p2.isCategory(p3.getCategory())) {
             System.out.println("Produsul "+p2.getName()+" si produsul "+p3.getName() + " au aceeasi categorie");
