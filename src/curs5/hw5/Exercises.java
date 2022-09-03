@@ -24,8 +24,8 @@ public class Exercises {
         targetDonatii(target);
         int nrMax = 10;
         targetDonatiiNumarMaxim(target, nrMax);
-
-        String fraza = "Afara este soare. Devreme a plouat. Se anunta o noapte frigurosa. Vine toamna.";
+        //Test
+        String fraza = "Afara este soare.Devreme a plouat.Se anunta o noapte frigurosa.Vine toamna.";
         afisarePropozitii(fraza);
 
 
@@ -69,10 +69,11 @@ public class Exercises {
 
     public static void targetDonatii(int target) {
         int sum = 0;
-        int donat = 0;
+        //int donat = 0;
+        int _a = 0;
         Random random = new Random();
         while (sum <= target) {
-            donat = random.nextInt(target);
+            int donat = random.nextInt(target);
             System.out.println("Suma donata=" + donat);
             sum = sum + donat;
         }
@@ -101,7 +102,7 @@ public class Exercises {
     public static void afisarePropozitii(String fraza) {
         String[] propozitii = fraza.split("\\.");
         for (String s: propozitii){
-            System.out.println(s);
+            System.out.println(s+".");
         }
     }
 }
