@@ -1,5 +1,4 @@
 package curs6;
-
 public class Product {
     private String name;
     private float price;
